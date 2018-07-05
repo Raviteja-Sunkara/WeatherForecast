@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Weather Forecast</string>
+    <string name="action_settings">Settings</string>
+
+    <!--Viewpager Label-->
+    <string name="viewpager_today_label">TODAY</string>
+    <string name="viewpager_tomorrow_label">TOMORROW</string>
+    <string name="viewpager_later_label">OVERMORROW</string>
+
+    <!--wind-->
+    <string name="wind_label">Wind:</string>
+    <string name="wind_unit">m/s</string>
+
+    <!--Pressure-->
+    <string name="pressure_label">Pressure:</string>
+    <string name="pressure_unit">hpa</string>
+
+    <!--Humidity-->
+    <string name="humidity_label">Humidity:</string>
+    <string name="humidity_unit">%</string>
+
+    <string name="internet_toast">please check your internet connection!</string>
+
+</resources>

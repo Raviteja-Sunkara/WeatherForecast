@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/dialog_close_lay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_alignParentRight="true">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/ic_close_icon"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp" />
+
+    </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dialog_close_lay"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="10dp">
+
+    <RelativeLayout
+        android:id="@+id/dialog_wind_RL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal">
+
+        <teja.weatherforecast.textview.CustomTextView
+            android:id="@+id/wind_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/wind_label"
+            android:textColor="@color/grey_text"
+            android:textSize="14sp"
+            android:gravity="left|center" />
+
+        <teja.weatherforecast.textview.CustomTextView
+            android:id="@+id/wind_value"
+            android:layout_toRightOf="@+id/wind_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="dfsgsdgss"
+            android:textColor="@color/grey_text"
+            android:textSize="14sp"
+            android:gravity="left|center" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/dialog_pressure_RL"
+        android:layout_below="@+id/dialog_wind_RL"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp">
+
+        <teja.weatherforecast.textview.CustomTextView
+            android:id="@+id/pressure_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pressure_label"
+            android:textColor="@color/grey_text"
+            android:textSize="14sp"
+            android:gravity="left|center" />
+
+        <teja.weatherforecast.textview.CustomTextView
+            android:id="@+id/pressure_value"
+            android:layout_toRightOf="@+id/pressure_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="dddddddd"
+            android:textColor="@color/grey_text"
+            android:textSize="14sp"
+            android:gravity="left|center" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/dialog_humidity_RL"
+        android:layout_below="@+id/dialog_pressure_RL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal">
+
+        <teja.weatherforecast.textview.CustomTextView
+            android:id="@+id/humidity_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/humidity_label"
+            android:textColor="@color/grey_text"
+            android:textSize="14sp"
+            android:gravity="left|center" />
+
+        <teja.weatherforecast.textview.CustomTextView
+            android:id="@+id/humidity_value"
+            android:layout_toRightOf="@+id/humidity_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="sdfsfsgsds"
+            android:textColor="@color/grey_text"
+            android:textSize="14sp"
+            android:gravity="left|center" />
+
+         </RelativeLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
