@@ -3,7 +3,7 @@
 
  *  A simple, opensource weather forecast app for Android.
  *  Implemented using openweathermap API.
- *  Forecast will be informed up to three days.
+ *  Forecast will be displayed up to three days.
  *  Clicking on current weather will show additional details like wind speed, pressure, humidity for the day.
  *  Weather icons are taken directly from openweathermap API.
  *  You can change API key and city in Service Constant folder. ( For getting API key register in openweathermap.org for free)
